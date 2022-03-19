@@ -6,5 +6,5 @@ urlpatterns = [
     url(r'^catalog/', include('catalog.urls')),
     url(r'^about/', include('about.urls')),
     url(r'^auth/', include('users.urls')),
-    url(r'^', include('homepage.urls'))
+    url(r'^$', include('homepage.urls'))
 ]
